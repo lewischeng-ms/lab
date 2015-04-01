@@ -15,13 +15,12 @@ We do hope that you can have fun here but please don't get annoyed if there is a
 ## License
 The projects in this repository are licensed under the [MIT license](LICENSE).
 
-## Community
-### Contribution
+## Contribution
 Of course, you are very welcomed to contribute on any new idea or prototype.
 
 Please refer to the [CONTRIBUTION.md](https://github.com/OData/lab/blob/master/CONTRIBUTION.md).
 
-### Support
+## Support
 * Team blog
  Please visit http://blogs.msdn.com/b/odatateam/.
 * Feedback
