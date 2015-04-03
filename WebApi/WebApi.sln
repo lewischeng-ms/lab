@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0586840D-E2D0-4BC5-A601-B550475F95D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2FD7A0A-2140-4FE9-AE51-0FC478C43CF5}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNet.OData", "src\Microsoft.AspNet.OData\Microsoft.AspNet.OData.kproj", "{F1BB0736-729F-4B44-9779-886DF97774EB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApi", "samples\SampleApi\SampleApi.kproj", "{EC133067-7398-419B-8AF9-C1E4EF566E84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{FCF5E7EC-6363-488E-931A-FABE61E8EF98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1BB0736-729F-4B44-9779-886DF97774EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BB0736-729F-4B44-9779-886DF97774EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BB0736-729F-4B44-9779-886DF97774EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BB0736-729F-4B44-9779-886DF97774EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC133067-7398-419B-8AF9-C1E4EF566E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC133067-7398-419B-8AF9-C1E4EF566E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC133067-7398-419B-8AF9-C1E4EF566E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC133067-7398-419B-8AF9-C1E4EF566E84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1BB0736-729F-4B44-9779-886DF97774EB} = {0586840D-E2D0-4BC5-A601-B550475F95D6}
+		{EC133067-7398-419B-8AF9-C1E4EF566E84} = {FCF5E7EC-6363-488E-931A-FABE61E8EF98}
+	EndGlobalSection
+EndGlobal

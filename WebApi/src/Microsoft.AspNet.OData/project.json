@@ -1,0 +1,24 @@
+﻿{
+    "version": "1.0.0-*",
+    "dependencies": {
+        "Microsoft.OData.Core": "7.0.0-preview",
+        "Microsoft.OData.Edm": "7.0.0-preview",
+        "Microsoft.Spatial": "7.0.0-preview",
+        "Newtonsoft.Json": "6.0.8",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta3"
+    },
+
+    "frameworks": {
+        "aspnet50": {
+            "dependencies": {
+            }
+        },
+        "aspnetcore50": {
+            "dependencies": {
+                "System.Runtime": "4.0.20-beta-22523",
+                "System.Linq.Queryable": "4.0.0-beta-22605",
+                "System.Xml.ReaderWriter": "4.0.10-beta-22605"
+            }
+        }
+    }
+}
