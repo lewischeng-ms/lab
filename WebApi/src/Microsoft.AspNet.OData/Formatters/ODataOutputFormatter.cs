@@ -5,6 +5,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Xml;
 using Microsoft.AspNet.Mvc;
+using Microsoft.AspNet.Mvc.Internal;
 using Microsoft.AspNet.OData.Extensions;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OData.Edm;
@@ -43,7 +44,7 @@ namespace Microsoft.AspNet.OData.Formatters
             var selectedEncoding = context.SelectedEncoding;
             var model = context.ActionContext.HttpContext.Request.ODataProperties().Model;
 
-            using (var delegatingStream = new DelegatingStream(response.Body))
+            using (var delegatingStream = new NonDisposableStream(response.Body))
             using (var writer = new StreamWriter(delegatingStream, selectedEncoding, 1024, leaveOpen: true))
             {
                 WriteObject(writer, context.Object, model);

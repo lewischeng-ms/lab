@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22609.0
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0586840D-E2D0-4BC5-A601-B550475F95D6}"
 EndProject
@@ -10,9 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNet.OData", "src\Microsoft.AspNet.OData\Microsoft.AspNet.OData.kproj", "{F1BB0736-729F-4B44-9779-886DF97774EB}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.AspNet.OData", "src\Microsoft.AspNet.OData\Microsoft.AspNet.OData.xproj", "{F1BB0736-729F-4B44-9779-886DF97774EB}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApi", "samples\SampleApi\SampleApi.kproj", "{EC133067-7398-419B-8AF9-C1E4EF566E84}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApi", "samples\SampleApi\SampleApi.xproj", "{EC133067-7398-419B-8AF9-C1E4EF566E84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{FCF5E7EC-6363-488E-931A-FABE61E8EF98}"
 EndProject

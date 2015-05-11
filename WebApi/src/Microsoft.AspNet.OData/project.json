@@ -1,23 +1,24 @@
 ﻿{
     "version": "1.0.0-*",
     "dependencies": {
-        "Microsoft.OData.Core": "7.0.0-preview",
-        "Microsoft.OData.Edm": "7.0.0-preview",
-        "Microsoft.Spatial": "7.0.0-preview",
+        "Microsoft.OData.Core": "6.12.0",
+        "Microsoft.OData.Edm": "6.12.0",
+        "Microsoft.Spatial": "6.12.0",
         "Newtonsoft.Json": "6.0.8",
-        "Microsoft.AspNet.Mvc": "6.0.0-beta3"
+      "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+      "Microsoft.Framework.DependencyInjection": "1.0.0-beta4"
     },
 
     "frameworks": {
-        "aspnet50": {
+        "dnx451": {
             "dependencies": {
             }
         },
-        "aspnetcore50": {
+        "dnxcore50": {
             "dependencies": {
-                "System.Runtime": "4.0.20-beta-22523",
-                "System.Linq.Queryable": "4.0.0-beta-22605",
-                "System.Xml.ReaderWriter": "4.0.10-beta-22605"
+                "System.Runtime": "4.0.20-beta-22816",
+                "System.Linq.Queryable": "4.0.0-beta-22816",
+                "System.Xml.ReaderWriter": "4.0.10-beta-22816"
             }
         }
     }

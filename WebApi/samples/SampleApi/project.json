@@ -4,22 +4,22 @@
     "version": "1.0.0-*",
     "dependencies": {
         "Microsoft.AspNet.OData": "1.0.0-*",
-        "Microsoft.AspNet.Server.IIS": "1.0.0-beta3",
-        "Microsoft.AspNet.Mvc": "6.0.0-beta3",
-        "Microsoft.AspNet.StaticFiles": "1.0.0-beta3",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta3",
+        "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
         "Newtonsoft.Json": "6.0.8"
     },
     "frameworks": {
-        "aspnet50": { },
-        "aspnetcore50": { }
+        "dnx451": { },
+        "dnxcore50": { }
     },
     "exclude": [
         "wwwroot",
         "node_modules",
         "bower_components"
     ],
-    "bundleExclude": [
+    "publishExclude": [
         "node_modules",
         "bower_components",
         "**.kproj",

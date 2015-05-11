@@ -49,7 +49,7 @@ namespace Microsoft.AspNet.OData.Routing
             context.IsHandled = true;
         }
 
-        public string GetVirtualPath(VirtualPathContext context)
+        public VirtualPathData GetVirtualPath(VirtualPathContext context)
         {
             throw new NotImplementedException();
         }
